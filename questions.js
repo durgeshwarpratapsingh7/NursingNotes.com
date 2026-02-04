@@ -1,4 +1,5 @@
 const questions = {
+
     biology: [
         {
             q: "Which organelle is called powerhouse of the cell?",
@@ -12,29 +13,30 @@ const questions = {
         }
     ],
 
-    chemistry: [
+    pharmacy: [
         {
-            q: "pH of pure water is?",
-            options: ["5", "7", "9", "11"],
-            answer: 1
+            q: "Which dosage form is used for rapid action?",
+            options: ["Tablet", "Capsule", "Injection", "Ointment"],
+            answer: 2
         },
         {
-            q: "Atomic number represents?",
-            options: ["Protons", "Neutrons", "Electrons", "Mass"],
+            q: "Official book of drug standards in India is?",
+            options: ["IP", "BP", "USP", "NF"],
             answer: 0
         }
     ],
 
-    physics: [
+    nursing: [
         {
-            q: "SI unit of Force is?",
-            options: ["Joule", "Newton", "Pascal", "Watt"],
+            q: "Normal pulse rate of adult is?",
+            options: ["40-60 bpm", "60-100 bpm", "100-120 bpm", "120-140 bpm"],
             answer: 1
         },
         {
-            q: "Speed of light is?",
-            options: ["3×10^8 m/s", "3×10^6 m/s", "3×10^5 m/s", "3×10^3 m/s"],
-            answer: 0
+            q: "First step in nursing process is?",
+            options: ["Planning", "Assessment", "Implementation", "Evaluation"],
+            answer: 1
         }
     ]
+
 };
