@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="quiz-container">
+    <h2>Your Score</h2>
+    <h1 id="score"></h1>
+    <button onclick="goHome()">Go Home</button>
+</div>
+
+<script>
+let score = localStorage.getItem("score");
+document.getElementById("score").innerText = score;
+
+function goHome(){
+    window.location.href = "index.html";
+}
+</script>
+
+</body>
+</html>
